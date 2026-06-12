@@ -1,0 +1,6 @@
+{
+  "name": "Adelaide Stone & Tile Construction",
+  "description": "Premium stone masonry, fully tiled luxury pools, and high-end tiling services in Adelaide, Australia. Architect-quality craftsmanship and luxury outdoor construction.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

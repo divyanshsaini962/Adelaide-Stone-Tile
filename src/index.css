@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Cormorant Garamond", serif;
+  
+  --color-sandstone: #D6C4A3;
+  --color-charcoal: #ECEAE4;     /* Refined Ivory Cream for high-contrast dark-mode text */
+  --color-warmwhite: #121213;    /* Immersive Obsidian Black background */
+  --color-poolblue: #2E516D;
+  --color-bronze: #C89F65;       /* Classical Bronze Gold Accent */
+}
+
+/* Custom premium scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #121213;
+}
+::-webkit-scrollbar-thumb {
+  background: #3B3831;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C89F65;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+body {
+  background-color: #121213;
+  color: #ECEAE4;
+}
+
+/* Base custom classes */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+/* Sophisticated Dark Global Overrides & Enhancements */
+
+/* Force all white backgrounds to elegant Graphite/Obsidian slate */
+.bg-white {
+  background-color: #171719 !important;
+}
+
+/* Keep elements that should be pure slate backgrounds looking deep */
+.bg-charcoal, [class*="bg-charcoal"] {
+  background-color: #121213 !important;
+}
+
+#header-topbar {
+  background-color: #0D0D0E !important;
+  color: #D6C4A3 !important;
+  border-bottom-color: rgba(214, 196, 163, 0.12) !important;
+}
+
+/* Ensure mobile nav drawer background is deeply immersive */
+#mobile-nav-drawer, #mobile-nav-drawer div {
+  background-color: #121213 !important;
+}
+
+/* Highlight / Hero Overrides to keep contrast flawless */
+.text-charcoal, [class*="text-charcoal"] {
+  color: #ECEAE4 !important;
+}
+
+/* Ensure text-warmwhite has correct high-contrast light ivory color in Sophisticated Dark */
+.text-warmwhite, [class*="text-warmwhite"] {
+  color: #ECEAE4 !important;
+}
+
+/* Secondary & Muted description text contrast calibration */
+.text-zinc-650, .text-zinc-600, .text-zinc-500, .text-zinc-400, .text-zinc-300, 
+.text-gray-500, .text-gray-650, .text-gray-600, .text-zinc-505, .text-zinc-705,
+.text-charcoal\/60, .text-charcoal\/70, .text-charcoal\/80 {
+  color: #A3A29E !important;
+}
+
+/* Ensure solid and hover bronze elements have legible dark text on light backgrounds */
+.bg-bronze, [class*="bg-bronze"] {
+  color: #121213 !important;
+}
+
+/* Subtle but elegant border color adjustment for dark backgrounds */
+.border-warmwhite, [class*="border-warmwhite"],
+.border-charcoal, [class*="border-charcoal"],
+.border-charcoal\/10, .border-charcoal\/15 {
+  border-color: rgba(214, 196, 163, 0.25) !important;
+}
+
+/* Multi-state button hover engine to guarantee clean color contrast transitions */
+[class*="hover\:bg-warmwhite"]:hover,
+[class*="hover\:bg-charcoal"]:hover,
+[class*="hover\:bg-white"]:hover,
+[class*="hover\:bg-bronze"]:hover {
+  background-color: #ECEAE4 !important;
+  color: #121213 !important;
+}
+
+/* Active gold text coloring */
+.text-bronze, [class*="text-bronze"], .text-sandstone, [class*="text-sandstone"] {
+  color: #C89F65 !important;
+}
+
+/* Selection and dropdown options styling */
+select option {
+  background-color: #171719 !important;
+  color: #ECEAE4 !important;
+}
+
+/* Form inputs & controls under Sophisticated Dark theme */
+input, select, textarea {
+  background-color: #1D1D1F !important;
+  color: #ECEAE4 !important;
+  border: 1px solid rgba(214, 196, 163, 0.2) !important;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #C89F65 !important;
+  box-shadow: 0 0 0 1px rgba(200, 159, 101, 0.25) !important;
+  outline: none !important;
+}
+
+/* Project detail showroom hover indicators */
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1 !important;
+}
+
+/* Premium smooth transitions */
+.transition-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
