@@ -78,7 +78,7 @@ export default function About({ onNavigate }: AboutProps) {
             <div className="absolute inset-0 border-2 border-bronze/30 translate-x-4 translate-y-4 -z-10" />
             <div className="relative aspect-[3/4] bg-zinc-900 overflow-hidden shadow-2xl">
               <img
-                src="/src/assets/images/astc_contractor_1781272795451.jpg"
+                src="/images/astc_contractor_1781272795451.jpg"
                 alt="Professional masonry contractor standing confidently on an Adelaide construction site"
                 className="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-700 hover:scale-105"
                 referrerPolicy="no-referrer"

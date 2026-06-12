@@ -11,7 +11,7 @@ const INSTAGRAM_REELS = [
     caption: 'Surgical calibration on this fully tiled pool. Every glass mosaic aligned to the millimeter. 📐🏊‍♂️ #astc #pooldesign #tiling #adelaideconstruction',
     videoUrl: 'https://vjs.zencdn.net/v/oceans.mp4',
     reelUrl: 'https://www.instagram.com/reel/DCTQRougG9S/',
-    coverImage: '/src/assets/images/astc_pool_tile_1781272776563.jpg',
+    coverImage: '/images/astc_pool_tile_1781272776563.jpg',
     views: '48.2K',
     likes: '3.4K',
     comments: '184',
@@ -23,7 +23,7 @@ const INSTAGRAM_REELS = [
     caption: 'Dressing random ashlar sandstone blocks direct from Adelaide Hills quarries. Old world craft, modern architecture. 🪨🔨 #stonemasonry #mason #craftsmanship #sandstone',
     videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
     reelUrl: 'https://www.instagram.com/reel/C7LEDB0yhIs/',
-    coverImage: '/src/assets/images/astc_stone_1781272760014.jpg',
+    coverImage: '/images/astc_stone_1781272760014.jpg',
     views: '24.9K',
     likes: '1.8K',
     comments: '92',
@@ -47,7 +47,7 @@ const INSTAGRAM_REELS = [
     caption: 'Completed outdoor transformation program. Sandstone fire pit, travertine paving, and fully tiled mosaic pool at dusk. 🌅🏡 #luxuryhomes #sunset #landscape #adelaide',
     videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
     reelUrl: 'https://www.instagram.com/reel/DKQswjZTCde/',
-    coverImage: '/src/assets/images/astc_outdoor_dusk_1781272815184.jpg',
+    coverImage: '/images/astc_outdoor_dusk_1781272815184.jpg',
     views: '83.1K',
     likes: '7.9K',
     comments: '408',
@@ -120,7 +120,7 @@ export default function Home({ onNavigate }: HomeProps) {
         {/* Fullsize Backdrop Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/luxury_pool_masonry.png"
+            src="/images/luxury_pool_masonry.png"
             alt="Luxury Adelaide outdoor backyard with fully tiled mosaic pool and premium hand-crafted stone walls"
             className="w-full h-full object-cover opacity-45 scale-105 animate-pulse-slow"
             referrerPolicy="no-referrer"
@@ -534,7 +534,7 @@ export default function Home({ onNavigate }: HomeProps) {
       <section id="homepage-cta-banner" className="relative py-24 bg-charcoal text-warmwhite overflow-hidden border-t border-bronze/20">
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/astc_outdoor_dusk_1781272815184.jpg"
+            src="/images/astc_outdoor_dusk_1781272815184.jpg"
             alt="Luxury Adelaide terrace and tiled pool highlighted under sunset outdoor lighting at dusk"
             className="w-full h-full object-cover opacity-35 scale-100"
             referrerPolicy="no-referrer"

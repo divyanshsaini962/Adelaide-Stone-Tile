@@ -7,7 +7,7 @@ export const SERVICES: ServiceDetail[] = [
     subtitle: 'Luxury Pool Construction & Professional Glass Mosaic Tiling',
     shortDescription: 'Bespoke fully tiled pools utilizing premium European glass mosaics, precision screeding, and bulletproof waterproofing systems.',
     fullDescription: 'At Adelaide Stone & Tile Construction, we transform backyards into breathtaking private resorts. Fully tiled pools represent the absolute pinnacle of luxury, visual beauty, and durability. Unlike plaster or vinyl liners, glass mosaics offer an enduring, shimmering color that never degrades under chemical exposure or UV light. We manage the entire scope: from precise concrete shell preparation, expert level screeding, and advanced dual-layer epoxy waterproofing, to artisan-level tiling and expanding silicone expansion joints.',
-    heroImage: '/src/assets/images/astc_pool_tile_1781272776563.jpg',
+    heroImage: '/images/astc_pool_tile_1781272776563.jpg',
     benefits: [
       'Artisan-level mosaic alignment with laser-guided tiling grids',
       'Advanced epoxy-base waterproofing with double elastomeric barrier layers',
@@ -22,7 +22,7 @@ export const SERVICES: ServiceDetail[] = [
       { step: 5, title: 'Expansion & Sealing', description: 'Installing luxury polyurethane joint sealants to allow dynamic movement and prevent leaks.' }
     ],
     gallery: [
-      '/src/assets/images/astc_hero_1781272742572.jpg',
+      '/images/astc_hero_1781272742572.jpg',
       'https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?q=80&w=800&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1563245372-f21724e3856d?q=80&w=800&auto=format&fit=crop'
     ]
@@ -33,7 +33,7 @@ export const SERVICES: ServiceDetail[] = [
     subtitle: 'Architectural Stone Cladding, Feature Walls & Natural Ashlar Work',
     shortDescription: 'Hand-crafted stone masonry featuring premium Australian sandstone, granite, and slate. Sourced and laid with perfect structural integrity.',
     fullDescription: 'Our hand-crafted stone work elevates standard structural walls, fireplaces, and garden facades into sculptural architectural masterpieces. Every single masonry element is hand-selected and carefully hand-dressed by qualified Adelaide stonemasons. We work hand-in-hand with luxury building designers to select the absolute best textures (whether Random Stone, Split Face, Dry Stack, or Ashlar) to emphasize natural Australian terrain.',
-    heroImage: '/src/assets/images/astc_stone_1781272760014.jpg',
+    heroImage: '/images/astc_stone_1781272760014.jpg',
     benefits: [
       'Genuinely hand-chiseled and dressed quarry-direct premium stones',
       'Engineered structural backing with custom high-strength galvanized steel ties',
@@ -74,7 +74,7 @@ export const SERVICES: ServiceDetail[] = [
       { step: 5, title: 'Sealing', description: 'Applying stain-proof polymer grouts and anti-fungal silicones color-matched to the tiles.' }
     ],
     gallery: [
-      '/src/assets/images/luxury_marble_bathroom.png',
+      '/images/luxury_marble_bathroom.png',
       'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?q=80&w=800&auto=format&fit=crop'
     ]
   },
@@ -133,7 +133,7 @@ export const SERVICES: ServiceDetail[] = [
     subtitle: 'Premium Outdoor Kitchens, Fireplaces, Paved Terraces, and Retaining stone Works',
     shortDescription: 'Bespoke structural outdoor construction merging organic Adelaide sandstone with luxurious limestone alfrescos.',
     fullDescription: 'A luxury pool and stone masonry are best unified by a holistic landscape architecture design. We craft incredible outdoor living zones completed with natural stone flags, robust retaining structures, fully detailed sandstone firepits, and sleek modern outdoor culinary spaces.',
-    heroImage: '/src/assets/images/astc_outdoor_dusk_1781272815184.jpg',
+    heroImage: '/images/astc_outdoor_dusk_1781272815184.jpg',
     benefits: [
       'Bespoke outdoor pizza-ovens, charcoal pits, and heavy stone entertainment slabs',
       'Flawlessly aligned travertine pathways that visually connect swimming pool borders',
@@ -148,7 +148,7 @@ export const SERVICES: ServiceDetail[] = [
       { step: 5, title: 'Designer illumination', description: 'Pre-wiring warm low-voltage garden fixtures to cast elegant vertical highlights up natural stone walls.' }
     ],
     gallery: [
-      '/src/assets/images/astc_outdoor_dusk_1781272815184.jpg'
+      '/images/astc_outdoor_dusk_1781272815184.jpg'
     ]
   }
 ];
@@ -160,7 +160,7 @@ export const PROJECTS: Project[] = [
     category: 'pools',
     location: 'Burnside, Adelaide',
     description: 'A striking 12-meter residential swimming pool fully tiled with Spanish glass mosaic tiles. Includes a matching hand-faced sandstone feature waterfall wall and cantilevered floating basalt stepping stones.',
-    image: '/src/assets/images/astc_hero_1781272742572.jpg',
+    image: '/images/astc_hero_1781272742572.jpg',
     tag: 'FULLY TILED POOL & STONE',
     year: '2025'
   },
@@ -170,7 +170,7 @@ export const PROJECTS: Project[] = [
     category: 'stone',
     location: 'Stonyfell, Adelaide Hills',
     description: 'Over 120 square meters of structural sandstone cladding using hand-dressed random ashlar stone. Sourced directly from local quarry beds to blend perfectly with the surrounding natural steep gorge.',
-    image: '/src/assets/images/astc_stone_1781272760014.jpg',
+    image: '/images/astc_stone_1781272760014.jpg',
     tag: 'STONE MASONRY',
     year: '2024'
   },
@@ -180,7 +180,7 @@ export const PROJECTS: Project[] = [
     category: 'residential',
     location: 'North Adelaide',
     description: 'A sublime structural master bathroom using floor-to-ceiling bookmatched Calacatta marble slabs. Features exact 45-degree mitered stone niche detailing, walk-in shower trays with integrated linear floor drains.',
-    image: '/src/assets/images/luxury_marble_bathroom.png',
+    image: '/images/luxury_marble_bathroom.png',
     tag: 'RESIDENTIAL TILING',
     year: '2025'
   },
@@ -190,7 +190,7 @@ export const PROJECTS: Project[] = [
     category: 'pools',
     location: 'Medindie, Adelaide',
     description: 'A modern fully tiled sapphire glass pool seamlessly integrated with premium silver travertine drop-face coping, expanding into a magnificent luxury outdoor fireplace and kitchen pavilion.',
-    image: '/src/assets/images/astc_pool_tile_1781272776563.jpg',
+    image: '/images/astc_pool_tile_1781272776563.jpg',
     tag: 'LUXURY POOL & OUTDOOR',
     year: '2025'
   },
